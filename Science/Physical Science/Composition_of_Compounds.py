@@ -1,10 +1,10 @@
 #Element Symbol and Atomic Weight:
-elements = {
-"none": 0,
-"H": "Helium", "atomic_weight_H": 1.00784,
-""
+#elements = {
+#"none": 0,
+#"H": "Helium", "atomic_weight_H": 1.00784,
+#""
 
-}
+#}
 none = 0 #This is used for is there is no element to be placed in function input (for input type: list)
 He	= 4.002602
 Li	= 6.938
