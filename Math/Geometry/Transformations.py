@@ -1,3 +1,6 @@
+#Instructions:
+#Go the bottom of the file and edit the inputs for what you need done
+#--------------------------------------------------------------------
 def transformations(movement_type, movement_spec, points):
     if 'tran' in movement_type.lower():
         X_movement = movement_spec[0] #This is the movement on the X

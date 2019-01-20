@@ -1,3 +1,6 @@
+#Instructions:
+#Go the bottom of the file and edit the inputs for what you need done
+#--------------------------------------------------------------------
 def triangles_classification(angles):
     if angles[0] == 90 or angles[1] == 90 or angles[2] == 90: #If one of the angles are 90 degrees
         print ("Triangle is a right triangle")
@@ -12,4 +15,4 @@ def triangles_classification(angles):
 
 #Examples
 triangles_classification([60,60,60]) #This is a equilateral triangle
-triangles_classification([45,45,90]) #This is a  right triangle 
+triangles_classification([45,45,90]) #This is a  right triangle
