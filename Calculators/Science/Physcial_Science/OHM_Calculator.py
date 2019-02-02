@@ -25,7 +25,7 @@ while random_continious_number == 0:
         volts_int = int(volts)
         resistance_int = int(resistance)
         current = volts_int / resistance_int
-        print("The current(Ampage) is:",current+"amps\n")
+        print("The current(Ampage) is:",str(current)+"amps\n")
         continue_question = input("Would you like to do another calculation?\n")
         if "y" in continue_question.lower():
             continue
@@ -50,4 +50,3 @@ while random_continious_number == 0:
     else:
         print("Please put in a valid input!")
         continue
-
