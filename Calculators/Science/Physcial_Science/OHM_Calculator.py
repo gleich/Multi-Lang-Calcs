@@ -41,7 +41,7 @@ while random_continious_number == 0:
         amps_int = int(amps)
         resistance = volts_int / amps_int
         resistance_str = str(resistance)
-        print("The resistance is:",resistance_str,"(Ω)")
+        print("The resistance is:",resistance_str,"(Ohms)")
         continue_question = input("Would you like to do another calculation?\n")
         if "y" in continue_question.lower():
             continue
