@@ -1,3 +1,6 @@
+# Instructions:
+# Just run the file and answer the questions!
+# --------------------------------------------------------------------
 random_continious_number = 0
 while random_continious_number == 0:
     exchange = input("What are you trying to find (Voltage, Current(Ampage), or Resistance)\n")
