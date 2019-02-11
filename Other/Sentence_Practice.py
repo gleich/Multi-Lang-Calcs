@@ -12,7 +12,7 @@ def oral_practice():
             print("You got it right!")
             number_of_times_correct += 1
             number_of_tries += 1
-            continue_answer = input("Do you wanna continue? If you do type 1 and of not then type 0\n")
+            continue_answer = input("Do you want continue? If you do type 1 and of not then type 0\n")
             continue_answer_casted = int(continue_answer)
             if continue_answer_casted == 0:
                 break
@@ -32,7 +32,6 @@ def oral_practice():
     print("")
     print("You answered", number_of_tries, "times")
     print("You got it right", number_of_times_correct, "times")
-    print("You average amount right is:",average_correct)
     print("")
     print("Thank you so much for using my software!")
     print("Created Matthew Gleich on 02/10/19")
