@@ -32,8 +32,10 @@ def oral_practice():
     print("")
     print("You answered", number_of_tries, "times")
     print("You got it right", number_of_times_correct, "times")
-    print("")
     print("You average amount right is:",average_correct)
+    print("")
+    print("Thank you so much for using my software!")
+    print("Created Matthew Gleich on 02/10/19")
     print("------------------------------------------")
 
 
