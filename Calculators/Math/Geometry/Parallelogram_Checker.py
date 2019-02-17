@@ -1,4 +1,4 @@
-    # This file is still being rebuilt and can't be used right now. It will be done in a few days or so...
+    # This file now works and just needs to be run!
     #--------------------------------------------------------------------
 while 0 == 0:
     # Distance formula:
@@ -101,7 +101,7 @@ while 0 == 0:
             print("Distance from point 1 to point 2 (" + str(distance_from_1to2S) + ") is equal to the distance of point 3 to point 4 (" + str(distance_from_3to4S) + (")"))
             print("Distance from point 2 to point 3 (" + str(distance_from_2to3S) + ") is equal to the distance of point 4 to point 1 (" + str(distance_from_4to1S) + (")"))
             print("Distance from point 2 to point 4 (" + str(distance_from_2to4D) + ") is equal to the distance of point 3 to point 1 (" + str(distance_from_3to1D) + (")\n"))
-            print("Other info")
+            print("Other info:")
             print("Length of top: " + str(distance_from_3to4S))
             length_of_middle = 0.5 * (distance_from_3to4S + distance_from_1to2S)
             print("Length of middle: " + str(length_of_middle))
@@ -121,11 +121,27 @@ while 0 == 0:
             print("Distance from point 1 to point 2 (" + str(distance_from_1to2S) + ") is equal to the distance of point 3 to point 4 (" + str(distance_from_3to4S) + (")"))
             print("Distance from point 2 to point 3 (" + str(distance_from_2to3S) + ") is equal to the distance of point 4 to point 1 (" + str(distance_from_4to1S) + (")"))
             print("Distance from point 2 to point 4 (" + str(distance_from_2to4D) + ") is equal to the distance of point 3 to point 1 (" + str(distance_from_3to1D) + (")\n"))
-            print("Other info")
+            print("Other info:")
             print("Length of top: " + str(distance_from_3to4S))
             length_of_middle = 0.5 * (distance_from_3to4S + distance_from_1to2S)
             print("Length of middle: " + str(length_of_middle))
             print("Length of bottom: " + str(distance_from_1to2S))
+            continue_question = input("Would you like to do another calculation?\n")
+            if "y" in continue_question.lower():
+                continue
+            else:
+                print("")
+                break
+        elif distance_from_1to2S == distance_from_3to4S and distance_from_2to3S == distance_from_4to1S:
+            print("")
+            print("-------------------------------------------------------")
+            print("The four points form a parallelogram\n")
+            print("Explanation:")
+            print("There are two sets of congruent sides\n")
+            print("Proof:")-8
+            print("Distance from point 1 to point 2 (" + str(distance_from_1to2S) + ") is equal to the distance of point 3 to point 4 (" + str(distance_from_3to4S) + (")"))
+            print("Distance from point 2 to point 3 (" + str(distance_from_2to3S) + ") is equal to the distance of point 4 to point 1 (" + str(distance_from_4to1S) + (")"))
+            print("Distance from point 2 to point 4 (" + str(distance_from_2to4D) + ") is equal to the distance of point 3 to point 1 (" + str(distance_from_3to1D) + (")\n"))
             continue_question = input("Would you like to do another calculation?\n")
             if "y" in continue_question.lower():
                 continue
@@ -145,4 +161,5 @@ while 0 == 0:
             if "y" in continue_question.lower():
                 continue
             else:
+                print("")
                 break
