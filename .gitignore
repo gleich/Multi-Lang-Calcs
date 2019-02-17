@@ -1,3 +1,5 @@
-
+.idea
+.xml
+.DS_Store
 *.xml
 .idea/Highschool_Help.iml
