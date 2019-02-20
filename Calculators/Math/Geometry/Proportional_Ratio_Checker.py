@@ -30,6 +30,8 @@ while 0 == 0:
         print("")
         continue_question = input("Would you like to do another calculation?\n")
         if "y" in continue_question.lower():
+            for i in range(15):
+                print("")
             continue
         else:
             break
@@ -41,12 +43,14 @@ while 0 == 0:
         print("")
         continue_question = input("Would you like to do another calculation?\n")
         if "y" in continue_question.lower():
+            for i in range(15):
+                print("")
             continue
         else:
             break
     else:
         print("")
         print("Please put in a valid data type")
-        for i in range(10):
+        for i in range(15):
             print("")
         continue
