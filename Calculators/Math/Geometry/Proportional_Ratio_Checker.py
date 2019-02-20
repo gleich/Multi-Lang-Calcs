@@ -35,7 +35,7 @@ while 0 == 0:
             break
     elif fraction1_simplest != fraction2_simplest:
         print("")
-        print("The two ratios don't a proportion!")
+        print("The two ratios don't form a proportion!")
         print("Ratio one's simplest form:", fraction1_simplest)
         print("Ratio two's simplest form:", fraction2_simplest)
         print("")
