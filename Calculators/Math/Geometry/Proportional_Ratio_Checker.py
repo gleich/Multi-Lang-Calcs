@@ -1,5 +1,5 @@
 # Instructions:
-# Go the bottom of the file and edit the inputs for what you need done
+# Just run the file and answer the questions!
 # --------------------------------------------------------------------
 while 0 == 0:
     first_fraction_str = input("What is the first fraction? Please separate the two numbers by a comma!\n")
