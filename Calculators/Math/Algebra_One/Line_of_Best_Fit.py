@@ -21,14 +21,14 @@ while True:
     b = new_y - m
 
     if b < 0:
-        print("The approximate equation for line of best fit is: y=" + str(m) + "x -" + str(b))
+        print("The approximate equation for the line of best fit is y=" + str(m) + "x " + str(b))
         continue_question = input("Would you like to do another calculation?\n")
         if "y" in continue_question.lower():
             continue
         else:
             break
     else:
-        print("The approximate equation for line of best fit is: y=" + str(m) + "x +" + str(b))
+        print("The approximate equation for the line of best fit is y=" + str(m) + "x +" + str(b))
         continue_question = input("Would you like to do another calculation?\n")
         if "y" in continue_question.lower():
             continue
