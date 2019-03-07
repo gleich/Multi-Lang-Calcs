@@ -1,4 +1,4 @@
-def oral_practice():
+def sentence_practice():
     starting_sentence = input("What is the line you are trying to remember?\n")  # Starting question
     for i in range(48):  # Loop that will make a ton of lines so the user can't see the phase the phrase that they put in so they can't cheat
         print("")
@@ -25,7 +25,6 @@ def oral_practice():
             print("You got it wrong!")
             number_of_tries += 1
             continue
-    average_correct = number_of_tries / number_of_times_correct
     print("")
     print("------------------------------------------")
     print("Now that you are done here are your stats:")
@@ -38,4 +37,4 @@ def oral_practice():
     print("------------------------------------------")
 
 
-oral_practice()
+sentence_practice()
