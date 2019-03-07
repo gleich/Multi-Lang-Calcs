@@ -138,7 +138,7 @@ while 0 == 0:
             print("The four points form a parallelogram\n")
             print("Explanation:")
             print("There are two sets of congruent sides\n")
-            print("Proof:")-8
+            print("Proof:")
             print("Distance from point 1 to point 2 (" + str(distance_from_1to2S) + ") is equal to the distance of point 3 to point 4 (" + str(distance_from_3to4S) + (")"))
             print("Distance from point 2 to point 3 (" + str(distance_from_2to3S) + ") is equal to the distance of point 4 to point 1 (" + str(distance_from_4to1S) + (")"))
             print("Distance from point 2 to point 4 (" + str(distance_from_2to4D) + ") is equal to the distance of point 3 to point 1 (" + str(distance_from_3to1D) + (")\n"))
