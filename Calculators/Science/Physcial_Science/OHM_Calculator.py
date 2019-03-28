@@ -16,6 +16,8 @@ while random_continious_number == 0:
         print("The voltage is:",voltage,"volts\n")
         continue_question = input("Would you like to do another calculation?\n")
         if "y" in continue_question.lower():
+            for i in range(20):
+                print("\n")
             continue
         else:
             break
@@ -31,6 +33,8 @@ while random_continious_number == 0:
         print("The current(Ampage) is:",str(current)+"amps\n")
         continue_question = input("Would you like to do another calculation?\n")
         if "y" in continue_question.lower():
+            for i in range(20):
+                print("\n")
             continue
         else:
             break
@@ -47,6 +51,8 @@ while random_continious_number == 0:
         print("The resistance is:",resistance_str,"(Ohms)")
         continue_question = input("Would you like to do another calculation?\n")
         if "y" in continue_question.lower():
+            for i in range(20):
+                print("\n")
             continue
         else:
             break
