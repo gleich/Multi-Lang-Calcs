@@ -6,7 +6,7 @@ nums = input("What are the numbers? Seperate each one with a comma\n")
 lst_str = nums.split(",")
 lst_int = []
 for string in lst_str:
-    integer = int(string)
+    integer = float(string)
     lst_int.append(integer)
 
 def classify_triangle(lst):
