@@ -10,8 +10,8 @@ while random_continious_number == 0:
         print("")
         resistance = input("What is the amount of resistance?\n")
         print("")
-        amps_int = int(amps)
-        resistance_int = int(resistance)
+        amps_int = float(amps)
+        resistance_int = float(resistance)
         voltage = amps_int * resistance_int
         print("The voltage is:",voltage,"volts\n")
         continue_question = input("Would you like to do another calculation?\n")
@@ -25,8 +25,8 @@ while random_continious_number == 0:
         print("")
         resistance = input("What is the amount of resistance?\n")
         print("")
-        volts_int = int(volts)
-        resistance_int = int(resistance)
+        volts_int = float(volts)
+        resistance_int = float(resistance)
         current = volts_int / resistance_int
         print("The current(Ampage) is:",str(current)+"amps\n")
         continue_question = input("Would you like to do another calculation?\n")
@@ -36,12 +36,12 @@ while random_continious_number == 0:
             break
     elif "res" in exchange.lower():
         print("")
-        volts = input("What is the amount of volts?\n")
+        volts = float("What is the amount of volts?\n")
         print("")
-        amps = input("What is the amount of amps?\n")
+        amps = float("What is the amount of amps?\n")
         print("")
-        volts_int = int(volts)
-        amps_int = int(amps)
+        volts_int = float(volts)
+        amps_int = float(amps)
         resistance = volts_int / amps_int
         resistance_str = str(resistance)
         print("The resistance is:",resistance_str,"(Ohms)")
