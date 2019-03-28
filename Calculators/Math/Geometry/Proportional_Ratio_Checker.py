@@ -1,7 +1,7 @@
 # Instructions:
 # Just run the file and answer the questions!
 # --------------------------------------------------------------------
-while 0 == 0:
+while True:
     first_fraction_str = input("What is the first fraction? Please separate the two numbers by a comma!\n")
     print("")
     second_fraction_str = input("What is the second fraction? Please separate the two numbers by a comma\n")
