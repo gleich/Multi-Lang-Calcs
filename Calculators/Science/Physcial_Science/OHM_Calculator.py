@@ -36,9 +36,9 @@ while random_continious_number == 0:
             break
     elif "res" in exchange.lower():
         print("")
-        volts = float("What is the amount of volts?\n")
+        volts = input("What is the amount of volts?\n")
         print("")
-        amps = float("What is the amount of amps?\n")
+        amps = input("What is the amount of amps?\n")
         print("")
         volts_int = float(volts)
         amps_int = float(amps)
