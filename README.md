@@ -1,6 +1,9 @@
 # Highschool_Help
 🏫 Calculators for School in many different programming languages
 
+# Calculator Ideas or Bugs to report?
+Use the issue templates located under the .github folder
+
 # Contribution Rules:
 1. All calculators need to go under the calculator folder and under the class that it belong to.
 2. If you are requesting changes to a file that is not your own, make a branch and a pull request to request the changes.
