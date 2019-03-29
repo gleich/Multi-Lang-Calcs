@@ -23,11 +23,11 @@ while True:
         speed = round(numbers[1] / numbers[0])
         return speed
 
-    print("Speed:", str(find_motion()))
+    print("Speed:", str(find_motion(), "mph"))
     print("")
     continue_question = input("Would you like to do another calculation?\n")
     if "y" in continue_question.lower():
-        for i in range(5):
+        for i in range(20):
             print("\n")
         continue
     else:
