@@ -2,7 +2,7 @@
 🏫 Calculators and other files that help with school work.
 
 
-# Instructions:
+# Instructions for Python files:
 There are a few quick and easy steps to be able to use the code snippets. The steps are shown below:
 1. Downloads Python from [https://www.python.org/downloads/]. **Make sure that you download python 3!**
 2. Install Python by opening the .ZIP file and following the instructions shown
