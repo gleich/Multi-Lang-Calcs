@@ -1,5 +1,6 @@
 # Highschool_Help
-🏫 Calculators and other files that help with school work.
+🏫 Calculators for School in many different programming languages
+
 
 
 # Instructions for Python files:
