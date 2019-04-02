@@ -1,16 +1,21 @@
-#Instructions:
-#Go the bottom of the file and edit the inputs for what you need done
-#--------------------------------------------------------------------
+# Just run the file!
+
+options = \
+"""
+1. Translation
+2. Rotation
+3.
+"""
+
 action = input("What are you trying to do to the two points?\n")
-point_one = input("What are the two points. Seperate them by a comma.\n"))
-nums_str = point_one.split(",")
+nums_str = input("What are the two points. Seperate them by a comma.\n").split(",")
 nums = []
 for string in nums_str:
     integer = int(string)
     nums.append(integer)
 
 def transformations(movement_type, movement_spec, points):
-    if 'tran' in movement_type.lower():
+    if 'translation' in movement_type.lower():
         X_movement = movement_spec[0] #This is the movement on the X
         Y_movement = movement_spec[1] #This is the movement on the Y
         First_movement = X_movement + points[0]
@@ -20,14 +25,14 @@ def transformations(movement_type, movement_spec, points):
         print ("The new set of points for the translation of " + "(" + str(points[0]) + "," + str(points[1]) + ") " + "is: " + "(" + str(First_movement) + "," + str(Second_movement) + ")")
         print ("End-------------------------------------------------------------") #Easier output reading
         print("") #Easier output reading
-    elif movement_type == "Rotation" and movement_spec == 90: #This is for a rotation of 90 degrees if Y is positive
+    elif "rotation" in movement_type.lower() and "90" in movement_type.lower(): #This is for a rotation of 90 degrees if Y is positive
         First_movement = points[1] - (points[1] * 2) #This is making the Y point negative
         print("") #Easier output reading
         print ("Start-----------------------------------------------------------") #Easier output reading
         print ("The new set of points for the rotation of " + "(" + str(points[0]) + "," + str(points[1]) + ") " + "is: " + "(" + str(points[1]) + "," + str(First_movement) + ")")
         print ("End-------------------------------------------------------------")
         print("") #Easier output reading
-    elif movement_type == "Rotation" and movement_spec == 180: #This is for a rotation of 180 degrees
+    elif if: #This is for a rotation of 180 degrees
         First_movement = points[0] - (points[0] * 2) #This is making the X point negative
         Second_movement = points[1] - (points[1] * 2) #This is making the Y point negative
         print("") #Easier output reading
@@ -82,4 +87,4 @@ def transformations(movement_type, movement_spec, points):
     else:
         print ("Something went wrong. Check if everything is put in the right way!")
 
-tansformations(action,nums[0],nums[1])
+tansformations(action,movement_info, nums)
