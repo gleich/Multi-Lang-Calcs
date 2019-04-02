@@ -1,6 +1,14 @@
 #Instructions:
 #Go the bottom of the file and edit the inputs for what you need done
 #--------------------------------------------------------------------
+action = input("What are you trying to do to the two points?\n")
+point_one = input("What are the two points. Seperate them by a comma.\n"))
+nums_str = point_one.split(",")
+nums = []
+for string in nums_str:
+    integer = int(string)
+    nums.append(integer)
+
 def transformations(movement_type, movement_spec, points):
     if 'tran' in movement_type.lower():
         X_movement = movement_spec[0] #This is the movement on the X
@@ -74,22 +82,4 @@ def transformations(movement_type, movement_spec, points):
     else:
         print ("Something went wrong. Check if everything is put in the right way!")
 
-#Examples for Translation:
-transformations("translation",[1,2],[2,3]) #Translation can be called with "translation"
-#transformations("Translation",[1,2],[2,0]) #Translation can be called with "Translation"
-#transformations("Trans",[1,2],[2,7]) #Translation can be called with "Trans"
-#transformations("tran",[1,2],[5,8]) #Translation can be called with "tran"
-#transformations("Tran",[1,2],[1,4]) #Translation can be called with "Tran"
-#transformations("trans",[1,2],[0,2]) #Translation can be called with "Trans"
-
-#Examples for Rotation:
-transformations("Rotation",90,[2,3]) #Rotation with a 90 degree turn
-#transformations("Rotation",180,[2,0]) #Rotation with a 180 degree turn
-#transformations("Rotation",270,[2,7]) #Rotation with a 270 degree turn=
-#transformations("Reflection", "y_axis",[2,7]) #Reflection in the y-axis
-#transformations("Reflection",["X",3],[5,8]) #Reflection in the x-axis
-#transformations("Reflection",["Y",2],[1,4]) #Reflection in the y-axis
-
-#Examples for Dilation:
-#transformations("Dilation",0.5,[2,3]) #Dilation with an reduction
-#transformations("Dilation",-3,[2,7]) #Dilation wih an enlargement
+tansformations(action,nums[0],nums[1])
