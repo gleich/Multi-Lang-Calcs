@@ -2,10 +2,10 @@ while True:
 
     def list_nums(question, seperator):
         """
-        Get a list of numbers that the uder supplies.
+        Get a list of numbers that the user supplies.
         :parameter String which is the question getting asked
         :parameter What the seperator of the numbers should be
-        :return lst of ints
+        :return list of ints
         """
         nums = input("{quest}. Each number should be seperated by a {sep}\n".format(quest=question,sep=seperator))
         lst_int = []
@@ -19,7 +19,7 @@ while True:
         Get the speed of a certain object
         :return int
         """
-        numbers = list_nums("What is the time and distance? Example answer: 2.34,400", ",")
+        numbers = list_nums("What is the time and distance? Example answer: 2.34, 400", ",")
         speed = round(numbers[1] / numbers[0])
         return speed
 
