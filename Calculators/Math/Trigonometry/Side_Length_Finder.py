@@ -129,4 +129,7 @@ while True:
                 continue
             else:
                 break
-        elif "n" in important_values["adjacent"].lower() and "x" in 
+        elif "n" in important_values["adjacent"].lower() and "x" in important_values["opposite"].lower():
+            print("This currently does not work")
+        else:
+            print("Error")
