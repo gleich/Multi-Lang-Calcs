@@ -1,5 +1,4 @@
 while True:
-
     def list_nums(question, seperator):
         """
         Get a list of numbers that the user supplies.
@@ -23,6 +22,7 @@ while True:
         speed = round(numbers[1] / numbers[0])
         return speed
 
+while True:
     print("Speed:", str(find_motion(), "mph"))
     print("")
     continue_question = input("Would you like to do another calculation?\n")
