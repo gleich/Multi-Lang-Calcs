@@ -1,3 +1,7 @@
+# NOTICE:
+# This file is currently under construction, please do not use!
+
+
 def seperator():
     """
     Will clear the output screen for the user:
@@ -34,4 +38,4 @@ def ask_question(question,cast_type):
 
 while True:
 
-    ask_question = 
+    ask_question =
