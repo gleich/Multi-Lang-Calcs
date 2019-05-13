@@ -18,7 +18,7 @@ def ask_question(question, caster):
 	:param caster: What the user's input will be casted as
 	:return: the user's input casted
 	"""
-	if "int" in caster:
+	if "int" in caster.lower():
 		try:
 			spacer()
 			users_input = int(input(question))
@@ -28,7 +28,7 @@ def ask_question(question, caster):
 			print("Please make sure that you only enter a integer")
 			users_input = int(input(question))
 			return users_input
-	elif "float" in caster:
+	elif "float" in caster.lower():
 		try:
 			spacer()
 			users_input = float(input(question))
@@ -38,7 +38,7 @@ def ask_question(question, caster):
 			print("Please make sure that you only enter a float")
 			users_input = float(input(question))
 			return users_input
-	elif "list" in caster:
+	elif "list" in caster.lower():
 		try:
 			spacer()
 			users_input = list(input(question))
@@ -48,7 +48,7 @@ def ask_question(question, caster):
 			print("Please make sure that you type something in")
 			users_input = list(input(question))
 			return users_input
-	elif "bool" in caster:
+	elif "bool" in caster.lower():
 		try:
 			spacer()
 			users_input = bool(input(question))
