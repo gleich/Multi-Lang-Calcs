@@ -1,5 +1,5 @@
-#Instructions:
-#Go the bottom of the file and edit the inputs for what you need done
+# Instructions:
+# Just run the file and answer the quesitons!
 #--------------------------------------------------------------------
 def distance(line_points):
     x_movements = (line_points[1] - line_points[0]) ** 2
