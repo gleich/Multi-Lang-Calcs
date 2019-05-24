@@ -1,4 +1,5 @@
-# Just run the file!
+# This file is currently broken.
+# This was my first program!
 
 options = \
 """
